@@ -1,0 +1,2 @@
+<!--pages/profile/porfile.wxml-->
+<open-data type="userCity"></open-data>

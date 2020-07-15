@@ -1,0 +1,20 @@
+/* components/y-tab-control/control.wxss */
+.tab-control{
+  display: flex;
+  height: 88rpx;
+  line-height: 88rpx;
+
+}
+.tab-item{
+ flex-grow: 1;
+ text-align: center;
+
+}
+.active{
+  color: royalblue;
+}
+
+.active text{
+  border-bottom: 1px solid red;
+  padding: 15rpx 10rpx;
+}

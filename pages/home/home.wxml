@@ -1,0 +1,18 @@
+<!--pages/home/home.wxml-->
+<y-control titles="{{['鞋子','帽子','衣服','裤子']}}" 
+              bind:itemHomeClick="homeClick"></y-control>
+
+<view style="margin:60rpx 10rpx;color:red;">-------多个插槽的使用--------------</view>
+<y-slot>
+  <view>替代了插槽</view>
+</y-slot>             
+
+<y-slot>
+<button>按钮插槽</button>
+</y-slot>     
+<view style="margin:60rpx 10rpx;color:red;">-------多个插槽的使用--------------</view>
+<y-mslot>
+ <button slot="slot3">第三个插槽按钮</button>
+ <text slot="slot2">第二个插槽的位置</text>
+ <view slot="slot1">第一个插槽的位置</view> 
+</y-mslot>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "y-control":"/components/y-tab-control/control",
+    "y-slot":"/components/y-slot/y-slot",
+    "y-mslot":"/components/y-mslot/y-mslot"
+  }
+}
