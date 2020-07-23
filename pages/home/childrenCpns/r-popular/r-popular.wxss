@@ -1,0 +1,4 @@
+/* pages/home/childrenCpns/r-popular/r-popular.wxss */
+.popular image{
+  width:100% ;
+}

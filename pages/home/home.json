@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "r-swiper":"/components/r-swiper/r-swiper",
+    "r-tab-control":"/components/m-tab-control/m-tab-control",
+    "r-goods":"/components/r-goods/r-goods",
+    "r-back-top":"/components/r-back-top/r-back-top",
+    "r-recommend":"./childrenCpns/r-recommend/r-recommend",
+    "r-popular":"./childrenCpns/r-popular/r-popular"
+  },
+  "navigationBarTitleText": "首页"
+}

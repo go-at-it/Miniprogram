@@ -1,0 +1,17 @@
+<!--1.展示轮播图-->
+<r-swiper list="{{banner}}" />
+<!-- 2.展示推荐界面 -->
+<r-recommend list="{{recommend}}" bind:imageLoad="handImageLoad"/>
+<!-- 3.本周流行 -->
+<r-popular />
+<!-- 4.tab-control -->
+<r-tab-control  titles="{{titles}}"
+                bind:tabclick="handleTabClick"
+                id="tab-control"
+                class="{{ isTabFixed ? 'fixed' : '' }}"/>
+<r-tab-control  titles="{{titles}}" wx:if="{{isTabFixed}}"/>
+                
+<!-- 5.展示商品数据 -->
+<r-goods goods ="{{goods[currentType].list }}" />
+<!-- 6.回到顶部 -->
+<r-back-top wx:if="{{showBackTop}}"/>

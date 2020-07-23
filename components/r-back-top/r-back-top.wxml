@@ -1,0 +1,4 @@
+<!--components/r-back-top/r-back-top.wxml-->
+<view class="back-top">
+  <image src="/assets/common/top.png" bind:tap="topClick"></image>
+</view>
